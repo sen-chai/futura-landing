@@ -1,0 +1,132 @@
+$background-color-1: #219daf;
+$background-dark:  #00525E;
+$color-outline: #F6821F;
+$regular-font: "InterRegular";
+$bold-font: "InterExtraBold";
+
+@font-face {
+  font-family: $regular-font;
+  src: url("../assets/inter-regular/Inter-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: $bold-font;
+  src: url("../assets/inter-extrabold/Inter-ExtraBold.woff2") format("woff2");
+}
+
+body {
+  font-family: $regular-font;
+}
+section {
+  padding: 5rem;
+  margin: 4rem 0;
+}
+p {
+  font-family: $regular-font;
+}
+h1 {
+  font-family: $bold-font;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+// Header
+#header {
+  position: fixed;
+  width: 100%;
+  padding: 1rem 6rem;
+}
+.social-icon{
+  width: 1.8rem;
+  margin: 0 0.5rem;
+}
+
+// Carrousell
+.carousel-indicators button{
+  background-color: $color-outline;
+  border: #000;
+}
+
+.carousel-indicators .active {
+  background-color: $color-outline;
+}
+
+a.anchor{
+  top: -10%;
+  display: block;
+  visibility: hidden;
+  position: relative;
+}
+
+// Sobre Nos
+
+
+// Atuacao
+.card {
+  background-color: white;
+  padding-bottom: 3rem;
+}
+.card-img-top {
+  margin: 1.2rem;
+  width:  45px; 
+}
+.card-title {
+  font-weight: bolder;
+}
+.card-text{
+  font-weight: normal;
+  font-size: medium;
+}
+.color-section {
+  background-color: $background-color-1;
+  position: relative;
+  display: grid;
+}
+.color-section h1 {
+  color: white;
+}
+
+// Porque Futura
+#por-que-grid {
+  padding: 3rem;
+}
+#por-que-grid div div{
+  padding: 0 3rem;
+}
+#por-que-grid div div h4{
+  padding-bottom: 0.5rem;
+}
+.grid-icon{
+  margin: 1rem;
+  width: 48px;
+  height: 48px;
+}
+#BNDES-icon{
+  margin-left: 0;
+}
+
+// FAQ
+#section-FAQ{
+  margin: 0 5rem;
+}
+.accordion-body{
+  padding: 2rem;
+}
+
+#footer{
+  font-family: $regular-font;
+  background-color:$background-dark;
+  color: white;
+  margin: 3rem 0 0;
+  padding: 7rem 0;
+}
+.social-icon-footer{
+  fill: white;
+  padding-top:1rem ;
+  margin-right: 1rem;
+  width: 2rem;
+
+}
+
+// Contato
+.contato-title{
+  font-weight: bolder; margin-bottom: 2rem;
+}

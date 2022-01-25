@@ -1,0 +1,134 @@
+@font-face {
+  font-family: "InterRegular";
+  src: url("../assets/inter-regular/Inter-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "InterExtraBold";
+  src: url("../assets/inter-extrabold/Inter-ExtraBold.woff2") format("woff2");
+}
+body {
+  font-family: "InterRegular";
+}
+
+section {
+  padding: 5rem;
+  margin: 4rem 0;
+}
+
+p {
+  font-family: "InterRegular";
+}
+
+h1 {
+  font-family: "InterExtraBold";
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+#header {
+  position: fixed;
+  width: 100%;
+  padding: 1rem 6rem;
+}
+
+.social-icon {
+  width: 1.8rem;
+  margin: 0 0.5rem;
+}
+
+.carousel-indicators button {
+  background-color: #F6821F;
+  border: #000;
+}
+
+.carousel-indicators .active {
+  background-color: #F6821F;
+}
+
+a.anchor {
+  top: -10%;
+  display: block;
+  visibility: hidden;
+  position: relative;
+}
+
+.card {
+  background-color: white;
+  padding-bottom: 3rem;
+}
+
+.card-img-top {
+  margin: 1.2rem;
+  width: 45px;
+}
+
+.card-title {
+  font-weight: bolder;
+}
+
+.card-text {
+  font-weight: normal;
+  font-size: medium;
+}
+
+.color-section {
+  background-color: #219daf;
+  position: relative;
+  display: grid;
+}
+
+.color-section h1 {
+  color: white;
+}
+
+#por-que-grid {
+  padding: 3rem;
+}
+
+#por-que-grid div div {
+  padding: 0 3rem;
+}
+
+#por-que-grid div div h4 {
+  padding-bottom: 0.5rem;
+}
+
+.grid-icon {
+  margin: 1rem;
+  width: 48px;
+  height: 48px;
+}
+
+#BNDES-icon {
+  margin-left: 0;
+}
+
+#section-FAQ {
+  margin: 0 5rem;
+}
+
+.accordion-body {
+  padding: 2rem;
+}
+
+#footer {
+  font-family: "InterRegular";
+  background-color: #00525E;
+  color: white;
+  margin: 3rem 0 0;
+  padding: 7rem 0;
+}
+
+.social-icon-footer {
+  fill: white;
+  padding-top: 1rem;
+  margin-right: 1rem;
+  width: 2rem;
+}
+
+.contato-title {
+  font-weight: bolder;
+  margin-bottom: 2rem;
+}
+
+/*# sourceMappingURL=index.css.map */
